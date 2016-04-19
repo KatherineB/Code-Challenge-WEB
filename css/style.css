@@ -1,5 +1,144 @@
 body {
     font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
-
-/* Your styles here ... */
+.menu-strip{
+	height: 60px;
+	text-align: left;
+}
+.menu{
+	display:inline-block;
+	margin-left: 120px;
+	margin-top: 15px;
+}
+.home-image{
+	height: 30px;
+	float: left;
+	margin-right: 15px;
+}
+.vertical-line{
+	background-color:#9a9a9a;
+	height: 20px;
+	width: 1px;
+	margin-top: 3px;
+	margin-right: 20px;
+	float: left;
+}
+.menu-item{
+	float: left;
+	margin-top: 4px;
+	margin-right: 40px;
+	font-size: 18px;
+}
+.top-section{
+	height: 450px;
+	background-color: #555;
+	text-align: center;
+}
+.top-main-text{
+	color: #fff;
+	font-size: 65px;
+	padding-top: 150px;
+}
+.top-sub-text{
+	color: #fff;
+	font-size: 40px;
+	padding-top: 25px;
+}
+.dot-holder{
+	padding-top: 40px;
+	text-align: center;
+	display: inline-block;
+}
+.dot{
+	float:left;	
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	background-color: #fff;
+	
+}
+.welcome-text-box{
+/*	display: inline-block;*/
+	text-align: center;
+	margin-top: 70px;
+}
+.welcome-text{
+	display: inline-block;
+	color: #32313c;
+	font-size: 25px;
+	width: 800px;
+	text-align: center;
+}
+.learn-more{
+	text-align: center;
+	margin-top: 40px;
+}
+.learn-more-btn{
+	display: inline-block;
+	background-color: #020202;
+	color: #fff;	
+	width: 200px;
+	height: 60px;
+	line-height: 3.4;
+	font-size: 18px;
+}
+.divider{
+	margin-top: 60px;
+	width: 900px;
+	height: 3px;
+	background-color: #e6e6e6;
+	display: inline-block;
+}
+.middle-heading{
+	color: #020202;
+	font-size: 55px;
+	padding-top: 40px;
+}
+.story-box-holder{
+	display: inline-block;
+	margin-top: 50px;
+	width: 900px;
+	text-align: center;
+}
+.story-box{
+	display: inline-block;
+	text-align: center;
+	width: 295px;
+}
+.story-date{
+	font-size: 12px;
+}
+.middle-title{
+	margin-top: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.story-subtitle{
+	margin-top: 5px;
+	font-size: 13px;
+}
+.story-image-box{
+	margin-top: 25px;
+}
+.story-image{
+	width: 290px;
+	height: 100px;
+}
+.story-text{
+	font-size: 13px;
+	padding: 20px;
+}
+.story-read-more{
+	font-size: 13px;
+}
+.load-more-btn{
+	display: inline-block;
+	color: #252525;	
+	width: 72px;
+	height: 22px;
+	line-height: 1.7;
+	font-size: 13px;
+	border: 1px solid #000;
+}
