@@ -32,8 +32,10 @@ body {
 }
 .top-section{
 	height: 450px;
-	background-color: #555;
 	text-align: center;
+	background:url('city_buildings.png'); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 .top-main-text{
 	color: #fff;
@@ -106,6 +108,7 @@ body {
 	display: inline-block;
 	text-align: center;
 	width: 295px;
+	vertical-align: top;
 }
 .story-date{
 	font-size: 12px;
@@ -124,7 +127,9 @@ body {
 }
 .story-image{
 	width: 290px;
-	height: 100px;
+}
+#story-image-1{
+	margin-top: 8px;
 }
 .story-text{
 	font-size: 13px;
@@ -156,6 +161,7 @@ body {
 .microblog{
 	display: inline-block;
 	text-align: left;
+	vertical-align: top;
 }
 .post-box{
 	margin-top: 20px;
@@ -172,14 +178,24 @@ body {
 .post-text-box{
 	float: left;
 	padding: 8px;
-	width: 140px;
+	width: 200px;
 }
 .post-text-name{
 	text-align: left;
 }
 .post-text-buttons{
+	float: left;
+}
+.post-text-share-btn-holder{
+	float: left;
 }
 .post-text-share-btn{
+}
+.post-text-share-btn-image{
+	width: 30px;
+}
+.post-text-share-btn-text{
+	float: left;
 }
 .post-text-arrow-btn{
 }
@@ -219,11 +235,9 @@ body {
 .discussion{
 	display: inline-block;
 	text-align: left;
+    vertical-align: top;
+}
 
-}
-.activity{
-	display: inline-block;
-}
 .forums-box{
 	margin-top: 20px;
 }
@@ -292,4 +306,8 @@ body {
 }
 .divider-forums{
 
+}
+.activity{
+	display: inline-block;
+	vertical-align: top;
 }
