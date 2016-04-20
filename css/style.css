@@ -86,7 +86,7 @@ body {
 }
 .divider{
 	margin-top: 60px;
-	width: 900px;
+	width: 1000px;
 	height: 3px;
 	background-color: #e6e6e6;
 	display: inline-block;
@@ -172,7 +172,7 @@ body {
 .post-text-box{
 	float: left;
 	padding: 8px;
-	width: 200px;
+	width: 140px;
 }
 .post-text-name{
 	text-align: left;
@@ -218,7 +218,78 @@ body {
 }
 .discussion{
 	display: inline-block;
+	text-align: left;
+
 }
 .activity{
 	display: inline-block;
+}
+.forums-box{
+	margin-top: 20px;
+}
+.forums-image-box{
+	float: left;
+	padding: 8px;
+}
+.forums-image{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+.forums-text-box{
+	float: left;
+	padding: 8px;
+}
+.forums-text-upper{
+	width: 350px;
+}
+.forums-type-btn-box{
+	float: left;
+	display: inline-block;
+}
+.forums-type-btn{
+	text-align: center;
+	display: inline-block;
+	background-color: #71a4d5;
+	color: #fff;	
+	width: 80px;
+	height: 22px;
+	line-height: 1.7;
+	font-size: 13px;
+}
+.forums-title{
+	float: left;
+	margin-left: 8px;
+	padding-top: 3px;
+	display: inline-block;
+	color: #71a4d5;
+	font-size: 17px;
+    font-weight: bold;
+}
+.forums-text-lower{
+}
+.forums-text-name{
+	float: left;
+	display: inline-block;
+}
+.dash{
+	float: left;
+	display: inline-block;
+}
+.replies-text-name{
+	float: left;
+	display: inline-block;
+}
+.time-text-name{
+	float: left;
+	display: inline-block;
+}
+.forums-like-btn-box{
+	float: right;
+	display: inline-block;
+}
+.forums-like-btn{
+}
+.divider-forums{
+
 }
