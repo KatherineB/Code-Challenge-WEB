@@ -23,11 +23,13 @@
 	</div>
 	<div class="top-section">
 	     <div class="top-main-text">Welcome to the Community</div>
-		 <div class="top-sub-text">Share, connect and collaborate</div>
+		 <div class="top-sub-text" id="top-sub-text-1">Share, connect and collaborate</div>
+		 <div class="top-sub-text" id="top-sub-text-2">Access resources easily</div>
+		 <div class="top-sub-text" id="top-sub-text-3">Be better organized</div>
 		 <div class="dot-holder">
-		     <div class="dot"></div>
-			 <div class="dot"></div>
-			 <div class="dot"></div>
+		     <div class="dot" OnClick="changePick(1)"><div class="pick" id="pick_1" ></div></div>
+			 <div class="dot" OnClick="changePick(2)"><div class="pick" id="pick_2" ></div></div>
+			 <div class="dot" OnClick="changePick(3)"><div class="pick" id="pick_3" ></div></div>
 			 <div style="clear:both"></div>
 		 </div>
 	</div>
@@ -290,7 +292,19 @@
 				   <div style="clear:both"></div>
 			 </div>
 			 <div class="divider-activity"></div>
-			 <div class="activity-load-more">Other Activity</div>
+			 <div class="activity-box" id="activity-box-3">
+			       <div class="activity-image-box">
+				    <img class="activity-image" src="img/writing-image.png">
+				   </div>
+				   <div class="activity-text-box">
+				     <div class="activity-text-title">New Tax Laws</div>
+				     <div class="activity-text-name">By Judy Jones</div>
+					 <div class="activity-text-time">9 days ago</div>
+				   </div>
+				   <div style="clear:both"></div>
+			 </div>
+			 <div class="divider-activity" id="divider-activity-3"></div>
+			 <div class="activity-load-more" OnClick="toggleOtherActivity()">Other Activity</div>
 		 </div>
 	</div>
 	<div class="bottom-part">
