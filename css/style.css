@@ -426,3 +426,118 @@ body {
 	margin-top: 10px;
 	color: #71a4d5;
 }
+.bottom-part{
+	width: 1055px;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+.viewed{
+	padding-top: 2px;
+	font-size: 13px;
+	color: #666666;
+	text-align: left;
+}
+.lower-bottom-part{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.follow-icon{
+	float: left;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-left: 12px;
+}
+.follow{
+	float: left;
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 13px;
+	color: #666666;
+}
+.email-icon{
+	float: left;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-left: 12px;
+}
+.email{
+	float: left;
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 13px;
+	color: #666666;
+}
+.broadcast-icon{
+	float: left;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-left: 12px;
+}
+.broadcast{
+	float: left;
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 13px;
+	color: #666666;
+}
+.feedback-icon{
+	float: right;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-left: 12px;
+}
+.feedback{
+	float: right;
+	display: inline-block;
+	margin-left: 4px;
+	font-size: 13px;
+	color: #666666;
+}
+.black-strip{
+	height: 40px;
+	width: 100%;
+	background-color: #000;
+}
+.footer{
+	background-color: #171717;
+	color: #c3c3c3;
+	text-align: center;
+}
+.copyright{
+	margin-top: 35px;
+	width: 150px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+.footer-box{
+	display: inline-block;
+	width: 260px;
+	margin: 15px;
+	vertical-align: top;
+}
+.footer-title{
+	margin-top: 20px;
+	text-align: left;
+}
+.footer-text{
+	margin-top: 30px;
+	text-align: left;
+}
+.footer-link{
+	margin-top: 20px;
+	text-align: left;
+	color: #71a4d5;
+}
+.igloo-logo-box{
+	text-align: right;
+}
+.igloo-logo{
+	display: online-block;
+	width: 80px;
+	margin-top: 110px;
+}
